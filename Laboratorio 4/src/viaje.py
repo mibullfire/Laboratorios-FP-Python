@@ -41,6 +41,14 @@ def ciudades_distintas(lista:list)->set:
             res.add(j)
     return sorted(list(res))
 
+'''
+def ciudades_distintas(lista:list)->set:
+    viajes_distintos = set()
+    for viaje in lista:
+        viajes_distintos.update(viaje.ciudades)
+    return sorted(viajes_distintos)
+'''
+
 def viajes_visitan_en_fecha(lista: list, ciudad: str, fecha: date = None) -> list:
     res = []
     for viaje in lista:
