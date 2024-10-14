@@ -13,6 +13,7 @@ def parse_date2(string:str)->date:
 def parse_lista(string:str)->list:
     string = string.replace('[', '')
     string = string.replace(']', '')
+    #También se peude hacer con string = string.split('[]')
     return string.split(" - ")
 
 def parse_float(string:str)->float:
