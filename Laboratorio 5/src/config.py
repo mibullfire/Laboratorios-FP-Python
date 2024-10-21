@@ -1,0 +1,1 @@
+fichero = './data/recetas.csv'
