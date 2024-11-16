@@ -1,0 +1,1 @@
+fichero = './data/f1.csv'
